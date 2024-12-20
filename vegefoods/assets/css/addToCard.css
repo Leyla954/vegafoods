@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+header .information {
+    height: 25px;
+    background-color: #82ae46;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+
+    p {
+        font-size: 13px;
+        display: flex;
+        gap: 10px;
+    }
+
+    i {
+        font-size: 9px;
+        margin-top: 6px;
+    }
+}
+
+header .container {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 80%;
+
+    h4 {
+        font-weight: bold;
+        color: #82ae46;
+        transition: 0.6s;
+        cursor: pointer;
+
+        &:hover {
+            color: #000;
+        }
+    }
+
+    a {
+        color: #000;
+        font-size: 13px;
+        transition: 0.6s;
+
+        &:hover {
+            color: #82ae46;
+        }
+    }
+
+    .btn {
+        background-color: transparent;
+        color: #000;
+        font-size: 13px;
+        border: none;
+        transition: 0.6s;
+
+        &:hover {
+            color: #82ae46;
+        }
+    }
+
+    .heart {
+        transition: 0.6s;
+
+        &:hover {
+            color: red;
+        }
+    }
+
+    .menuIcon {
+        display: none;
+    }
+
+}
+
+.addToCard {
+    margin-top: 10%;
+    text-align: center;
+    color: #82ae46;
+}
+
+.upper i {
+    font-size: 20px;
+    color: #fff;
+    background-color: #82ae46;
+    border-radius: 50px;
+    padding: 20px;
+    position: absolute;
+    right: 10%;
+    margin: 30px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 80%;
+        height: 300px;
+
+        .vegafood {
+            font-size: 15px;
+            width: 250px;
+            height: 200px;
+            line-height: 30px;
+
+            h3 {
+                font-size: 17px;
+                padding: 20px 0;
+            }
+
+            .sosial {
+                font-size: 25px;
+                padding: 30px 0;
+                display: flex;
+                gap: 30px;
+
+                i {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .menu {
+            font-size: 15px;
+            width: 250px;
+            height: 200px;
+            line-height: 30px;
+
+            h3 {
+                font-size: 17px;
+                padding: 20px 30px;
+            }
+
+            a {
+                color: #000;
+            }
+        }
+
+        .help {
+            font-size: 15px;
+            width: 250px;
+            height: 200px;
+            line-height: 30px;
+
+            h3 {
+                font-size: 17px;
+                padding: 20px 30px;
+            }
+
+            a {
+                color: #000;
+            }
+        }
+
+        .questions {
+            h3 {
+                font-size: 17px;
+                padding: 20px 30px;
+            }
+
+
+            h3 {
+                font-size: 17px;
+                padding: 20px 30px;
+            }
+
+            p {
+                cursor: pointer;
+
+                i {
+                    font-size: 20px;
+                    padding: 7px;
+                }
+            }
+        }
+    }
+}
+
+.colorlib {
+    text-align: center;
+    padding: 30px;
+    margin-top: 7%;
+
+    span {
+        color: #82ae46;
+    }
+}
